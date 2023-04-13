@@ -1,7 +1,7 @@
 // TOKENIZING MODULE SOURCE
 #define _CRT_SECURE_NO_WARNINGS 
 #define BUFFER_SIZE 300
-#include "tokenizing.h" // includes header to point libraries and struct used
+#include "tokenizing.h" //includes header to point libraries and struct used
 
 void tokenizing(void)
 {
