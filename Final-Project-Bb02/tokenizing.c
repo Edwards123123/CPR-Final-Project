@@ -10,7 +10,7 @@ void tokenizing(void)
 	/* Version 1 >> insert here
 	
 	printf("*** Start of Tokenizing Words Demo ***\n");
-	char words[BUFFER_SIZE]; //word will be used to save user input
+	char words[BUFFER_SIZE]; // word will be used to save user input
 	char* nextWord = NULL; // nextword will be used to find the spaces between word to separate it before the output
 	int wordsCounter = 0; // wordCounter will be used to count the total of words
 
@@ -55,7 +55,7 @@ void tokenizing(void)
 
 		if (strcmp(phrases, "q") != 0) // condition to check if the user want to exit of the programm execution
 		{
-			nextPhrase = strtok(phrases, ","); //find comma between phrases to count and separate it
+			nextPhrase = strtok(phrases, ","); // find comma between phrases to count and separate it
 			phrasesCounter = 1;
 
 			while (nextPhrase) // loop to print the program results
@@ -65,7 +65,7 @@ void tokenizing(void)
 			}
 		}
 
-	} while (strcmp(phrases, "q") != 0); //exit condition from the principal loop
+	} while (strcmp(phrases, "q") != 0); // exit condition from the principal loop
 	printf("*** End of Tokenizing Phrases Demo ***\n\n"); //bye message
 */
 
@@ -87,7 +87,7 @@ void tokenizing(void)
 
 		if (strcmp(sentences, "q") != 0) // condition to check if the user want to exit of the programm execution
 		{
-			nextSentence = strtok(sentences, "."); //find point between sentence to count and separate it
+			nextSentence = strtok(sentences, "."); // find point between sentence to count and separate it
 			sentenceCounter = 1;
 
 			while (nextSentence) // loop to print the program results
